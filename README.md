@@ -1,0 +1,39 @@
+# 树莓派魔镜 MagicMirror
+## 环境配置
+***
+click (6.6)
+cycler (0.10.0)
+Django (1.9.7)
+encoding (1.0.0)
+Flask (0.11.1)
+functools32 (3.2.3.post2)
+itsdangerous (0.24)
+Jinja2 (2.8)
+langid (1.1.6)
+MarkupSafe (0.23)
+matplotlib (2.0.0b1)
+MySQL-python (1.2.5)
+numpy (1.11.1)
+opencv-python (3.1.0)
+oursql (0.9.3.1)
+pip (8.1.2)
+PyAudio (0.2.9)
+pycurl (7.43.0)
+pygame (1.9.2a0)
+PyOpenGL (3.1.1)
+pyparsing (2.1.5)
+pyserial (3.1.1)
+python-dateutil (2.5.3)
+pytz (2016.4)
+requests (2.10.0)
+setuptools (18.2)
+six (1.10.0)
+virtualenv (15.0.2)
+Werkzeug (0.11.10)
+xpinyin (0.5.4)
+***
+## 模块说明
+### 百度人工智能模块
+### Sqlite数据库智能化搜索模块
+### 声频处理模块
+### 单元控制及线程处理模块
