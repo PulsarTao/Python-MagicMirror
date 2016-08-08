@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
+encoding//AIEngine/KNN.py=utf-8
 encoding//Apilib/Rapi.py=utf-8
 encoding//Apilib/VTS.py=utf-8
 encoding//CvFacereader/CvFacereader.py=utf-8
