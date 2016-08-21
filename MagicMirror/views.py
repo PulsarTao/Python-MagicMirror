@@ -4,9 +4,9 @@ Routes and views for the flask application.
 """
 from datetime import datetime
 from flask import render_template
-from MagicMirror import app
 from Apilib import Rapi
-#from flask import *
+from flask import *
+from MagicMirror import app
 from flask.globals import request
 
 @app.route('/',methods=['GET',"POST"])

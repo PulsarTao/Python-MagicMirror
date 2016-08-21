@@ -1,10 +1,16 @@
 eclipse.preferences.version=1
 encoding//AIEngine/KNN.py=utf-8
+encoding//AIEngine/__init__.py=utf-8
 encoding//Apilib/Rapi.py=utf-8
 encoding//Apilib/VTS.py=utf-8
+encoding//Apilib/__init__.py=utf-8
+encoding//AudioC/__init__.py=utf-8
 encoding//CvFacereader/CvFacereader.py=utf-8
+encoding//CvFacereader/__init__.py=utf-8
+encoding//MagicMirror/__init__.py=utf-8
 encoding//MagicMirror/views.py=utf-8
 encoding//VSerial/VSerial.py=utf-8
 encoding//VtsModle/VGPIO.py=utf-8
+encoding//VtsModle/__init__.py=utf-8
 encoding/MainTest.py=utf-8
 encoding/runserver.py=utf-8
