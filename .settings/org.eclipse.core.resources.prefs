@@ -7,6 +7,7 @@ encoding//Apilib/__init__.py=utf-8
 encoding//AudioC/__init__.py=utf-8
 encoding//CvFacereader/CvFacereader.py=utf-8
 encoding//CvFacereader/__init__.py=utf-8
+encoding//Functiom/__init__.py=utf-8
 encoding//MagicMirror/__init__.py=utf-8
 encoding//MagicMirror/views.py=utf-8
 encoding//VSerial/VSerial.py=utf-8
