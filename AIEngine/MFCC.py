@@ -146,6 +146,7 @@ def s2dctmat(nfilt,ncep,freqstep):
     """Return the 'legacy' not-quite-DCT matrix used by Sphinx"""
     melcos = numpy.empty((ncep, nfilt), 'double')
     for i in range(0,ncep):
+        #波形等于取精度i乘以pi再除以波长
         freq = numpy.pi * float(i) / nfilt
         melcos[i] = numpy.cos(freq * numpy.arange(0.5, float(nfilt)+0.5, 1.0, 'double'))
     melcos[:,0] = melcos[:,0] * 0.5

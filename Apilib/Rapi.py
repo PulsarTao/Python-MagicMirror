@@ -3,6 +3,7 @@ import urllib
 import urllib2
 import json
 import base64
+from Config.ApiConfig import *
 
 
 '''
@@ -10,10 +11,11 @@ import base64
 返回Srting类型的数据
 '''
 def SendMsg(Msg):
-    url = "http://www.tuling123.com/openapi/api"
-    data = {'key':'d5f3fdfaccb93969a630f4e46751fde9',
+    Api=ApiConf()
+    url = Api.Tuling()['url']
+    data = {'key':Api.Tuling()['key'],
           'info':Msg,
-          'userid':'123456'}
+          'userid':Api.Tuling()['userid']}
     Sjson = urllib.urlencode(data)
     request = urllib2.Request(url, Sjson)
     try:
@@ -38,10 +40,11 @@ def SendMsg(Msg):
 返回String类型的token
 '''
 def Token():
-        url = "https://openapi.baidu.com/oauth/2.0/token"
-        Tdata = {'grant_type':'client_credentials',
-               'client_id':'72n3GYlVpc1n4du35GYOrT4X',
-               'client_secret':'3b83be694855a70b46590f18d17aec41'}
+        Api=ApiConf()
+        url = Api.BaiduRest()['url']
+        Tdata = {'grant_type':Api.BaiduRest()['grant_type'],
+               'client_id':Api.BaiduRest()['client_id'],
+               'client_secret':Api.BaiduRest()['client_secret']}
         Sjson = urllib.urlencode(Tdata)
         request = urllib2.Request(url, Sjson)
         try:
@@ -107,7 +110,8 @@ def Roobot(Msg):
 
 # Union Debug
 if  __name__ == '__main__':
-    print Roobot("你好")
+    Api=ApiConf()
+    print Api.Tuling()['url']
     exit()
     
     
