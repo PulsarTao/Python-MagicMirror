@@ -10,7 +10,6 @@ class ApiConf():
                     "key":"d5f3fdfaccb93969a630f4e46751fde9",
                     "userid":"123456"}
             return Tuling
-        
     def BaiduRest(self):
         BaiduRest={"url":"https://openapi.baidu.com/oauth/2.0/token",
                    "grant_type":"client_credentials",

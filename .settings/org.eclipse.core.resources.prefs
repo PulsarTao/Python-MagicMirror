@@ -14,6 +14,7 @@ encoding//Functiom/__init__.py=utf-8
 encoding//MagicMirror/__init__.py=utf-8
 encoding//MagicMirror/views.py=utf-8
 encoding//VSerial/VSerial.py=utf-8
+encoding//VSerial/__init__.py=utf-8
 encoding//VtsModle/VGPIO.py=utf-8
 encoding//VtsModle/__init__.py=utf-8
 encoding/MainTest.py=utf-8
