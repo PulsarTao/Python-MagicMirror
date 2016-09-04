@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//AIEngine/KNN.py=utf-8
 encoding//AIEngine/__init__.py=utf-8
+encoding//AIEngine/pingyin.py=utf-8
 encoding//Apilib/Rapi.py=utf-8
 encoding//Apilib/VTS.py=utf-8
 encoding//Apilib/__init__.py=utf-8
