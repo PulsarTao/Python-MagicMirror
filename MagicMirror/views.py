@@ -12,10 +12,10 @@ from flask.globals import request
 @app.route('/',methods=['GET',"POST"])
 def home():
     return render_template(
-        'index.html',
+        'index.tpl',
         title="Magic Mirror",
         button="Send",
-        year=datetime.now().year,
+        year=datetime.now(),
     )
 @app.route('/roobot',methods=['GET','POST'])
 def roobot():

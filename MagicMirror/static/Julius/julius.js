@@ -75,8 +75,9 @@
       delete options.transfer;
 
       // _Recognition is offloaded to a separate thread to avoid slowing UI_
-      this.recognizer = new Worker(options.pathToWorker || 'worker.js');
-
+      //options.pathToWorker="static/Juilus/worker.js";
+      this.recognizer = new Worker(options.pathToWorker || 'static/Julius/worker.js');
+      console.log(options.pathToWorker);
       this.recognizer.onmessage = function(e) {
         if (e.data.type === 'begin') {
           that.audio.processor.onaudioprocess = postBuffer.call(that);
