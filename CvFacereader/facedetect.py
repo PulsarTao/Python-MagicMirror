@@ -63,7 +63,7 @@ if __name__ == '__main__':
                 vis_roi = vis[y1:y2, x1:x2]
                 subrects = detect(roi.copy(), nested)
                 draw_rects(vis_roi, subrects, (255, 0, 0))
-                print ("Get eyes")
+                print ("Get Face")
         dt = clock() - t
 
         draw_str(vis, (20, 20), 'time: %.1f ms' % (dt*1000))
