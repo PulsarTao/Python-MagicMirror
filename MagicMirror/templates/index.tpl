@@ -13,10 +13,6 @@
 	<p>{{year}}</p>
 </body>
 <script type="text/javascript">
-var julius = new Julius();
-console.log("Require Success");
-julius.onrecognition = function(sentence) {
-    console.log(sentence);
-};
+
 </script>
 </html>

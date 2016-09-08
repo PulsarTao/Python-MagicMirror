@@ -29,10 +29,27 @@ def roobot():
     else:
         return "<p>No Message<p>"
     
+@app.route('/study',methods=['GET','POST'])
+def study():
+    if request.method == "POST":
+        message=request.form['message']
+        try:
+            Answer=Rapi.Roobot(message)
+        except Exception:
+            Answer=""
+        return Answer
+    else:
+        return render_template(
+        'study.tpl',
+        title='Methion learning',
+        year=datetime.now(),
+        message=''
+        )
+    
 @app.route('/about')
 def about():
     return render_template(
-        'about.html',
+        'about.tpl',
         title='About',
         year=datetime.now().year,
         message='Your application description page.'
