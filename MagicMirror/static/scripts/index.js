@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$("audio").remove();
 		if(checkMessage()){
 			var message =$("#message").val();
-			sendMessage();
+			sendMessage(message);
 		}
 	});
 	$(document).keyup(function(e){
