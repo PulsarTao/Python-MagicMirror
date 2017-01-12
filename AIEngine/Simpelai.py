@@ -1,4 +1,5 @@
 from simpleai.search import SearchProblem, astar
+import sqlite3
  
 GOAL = 'FU22s22CK'
  
@@ -16,7 +17,6 @@ class HelloProblem(SearchProblem):
         return state == GOAL
  
     def heuristic(self, state):
-        # how far are we from the goal?
         wrong = sum([1 if state[i] != GOAL[i] else 0
                     for i in range(len(state))])
         missing = len(GOAL) - len(state)

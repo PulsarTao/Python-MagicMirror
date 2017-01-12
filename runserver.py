@@ -1,3 +1,4 @@
+#!usr/bin/python
 # -*- coding: utf-8 -*-
 """
 This script runs the MagicMirror application using a development server.

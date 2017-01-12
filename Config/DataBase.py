@@ -15,4 +15,8 @@ class DataCfg(object):
         '''
         Constructor
         '''
+    def Migic_Sqlite3(self):
+        DataCfg_info={"DB_PATH":"./database",
+                      "DB_NAME":"Learn"}
+        return DataCfg_info
         
